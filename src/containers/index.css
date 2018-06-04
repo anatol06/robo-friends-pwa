@@ -1,0 +1,61 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #7cc5c1;
+    opacity: 1; /* Firefox */
+    letter-spacing: 1px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #7cc5c1;
+    letter-spacing: 1px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #7cc5c1;
+    letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to left, rgba(37, 74, 104, 1) 0%, rgba(0, 128, 128, 1) 100%);
+  color: #333;
+}
+
+.f1 {
+  font-size: 3.5em !important;
+  /* color: #F6C890; */
+  color: #9EDAA4;
+  letter-spacing: 2px;  
+}
+
+span.color2 {
+  /* color: #EE912E; */
+  color: #A4ECCE;
+}
+
+input[type="search"],
+input[type="search"]:active,
+input[type="search"]:focus {
+  border: none;
+  background: #297F7E;
+  color: #A4ECCE;
+  letter-spacing: 1px;
+  outline: none;
+  box-shadow: inset 2px 2px 3px 1px rgba(0,0,0,0.3);
+
+}
+
+input[type="search"]:active,
+input[type="search"]:focus {
+  background: #2d8a88;
+}
+
+.loading {
+  text-align: center;
+  color: #2D6673;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
